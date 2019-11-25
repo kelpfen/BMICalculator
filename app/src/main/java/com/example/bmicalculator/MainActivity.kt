@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
             try {
                 val weight: Double = txtWeight.text.toString().toDouble()
                 val height: Double = txtHeight.text.toString().toDouble()
-
+//jj
                 val bmi: Double = weight / (height * height)
                 val result: String
 
